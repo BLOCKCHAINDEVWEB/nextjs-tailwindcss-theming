@@ -1,0 +1,8 @@
+{
+  "css.validate": false, // enable/disable css built-in lint
+  "stylelint.enable": true, // enable/disable sytlelint
+  "scss.validate": false, // enable/disable scss lint (optional if using scss)
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+}

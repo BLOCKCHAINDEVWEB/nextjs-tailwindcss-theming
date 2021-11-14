@@ -1,0 +1,38 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+
+.light {
+  --text: theme(colors.gray.900);
+  --select: theme(colors.gray.900);
+  --bg-color: theme(colors.white);
+  --bg-select: theme(colors.white);
+  --primary: theme(colors.purple.600);
+  --accent: theme(colors.blue.600);
+}
+
+.dark {
+  --text: theme(colors.white);
+  --select: theme(colors.gray.900);
+  --bg-color: theme(colors.gray.900);
+  --bg-select: theme(colors.white);
+  --primary: theme(colors.purple.700);
+  --accent: theme(colors.blue.300);
+}
+
+.colors {
+  --text: theme(colors.white);
+  --select: theme(colors.gray.900);
+  --bg-color: theme(colors.yellow.100);
+  --bg-select: theme(colors.white);
+  --primary: theme(colors.purple.700);
+  --accent: theme(colors.blue.600);
+}
+
+div {
+  background: var(--bg-color);
+  color: var(--text);
+}
